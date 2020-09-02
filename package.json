@@ -1,0 +1,22 @@
+{
+    "name": "return_ip_server",
+    "version": "1.0.0",
+    "description": "A server to store ip address of admin and serve it",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "author": "Buğra Eryılmaz",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "joi": "^17.2.1",
+        "monk": "^7.3.1",
+        "volleyball": "^1.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
